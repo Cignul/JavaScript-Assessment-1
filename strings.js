@@ -6,8 +6,8 @@ function toUpper(str) {
     const currLetter = sentence[i];
     if (currLetter == 'i')
       currLetter.toUpperCase
-    sentence = sentence[currLetter]
     sentence.replace("i", "I");
+    sentence = sentence[currLetter]
   }
   return console.log(sentence)
 }
