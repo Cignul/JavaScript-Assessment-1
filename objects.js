@@ -7,3 +7,10 @@ var me = {
 };
 
 //2. Iterate over the object to console.log the propery or key names. 
+var myName = this.name = " Jackson Gordon"
+var myAge = this.age = 31
+var myColor = this.color = 'blonde'
+
+console.log(myName)
+console.log(myAge)
+console.log(myColor)
